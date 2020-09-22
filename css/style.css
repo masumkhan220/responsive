@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+h1,h2,h3,h4,h5,h6{
+	text-transform: uppercase;
+}
+header{
+	width:100%;
+	background: #000;
+}
+
+/*navbar css code start*/
+.navbar{
+	padding: 20px;
+}
+.nav-item{
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.nav-link{
+	text-transform: uppercase;
+	color:white !important;
+	transition: 0.5s ease-in-out;
+
+}
+.nav-link:hover{
+	color: #ff8b38 !important;
+	transition: 0.5s ease-in-out;
+}
+.mobile-menu i{
+	color:white;
+
+}
+
+ /*banner section start from here */
+.banner{
+	width:100%;
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+}
+.banner-left{
+	height: 80vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner-left h2{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 36px;
+	margin: 20px 0;
+}
+.banner-left .line{
+    width: 70px;
+    height: 2px;
+    background: white;
+    margin: 20px 0;
+}
+.banner-left p{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+}
+.banner-left button{
+	padding: 15px;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    border: 1px solid aliceblue;
+        border-radius: 35px;
+}
+.banner-left button:hover{
+	background: #ff9b51;
+	font-size: 35px;
+	display: flex;
+	align-items: center;
+}
+/*.banner-left button:focus{
+	border: none;
+}*/
+.banner-right{
+	height: 80vh;
+	display: table-cell;
+	vertical-align: middle;
+	    padding: 75px;
+}
+.banner-right .card-title{
+	font-size: 30px;
+}
+.banner-right .card-title span{
+	color: #ff9b51 !important;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner-right .card-footer{
+	background: #ff9b51 !important;
+	text-align: center;
+}
+.banner-right .card-footer .card-link{
+ 	color: white;
+}
+/*social section 1 astart here*/
+
+.social-section{
+    width: 100%;
+    padding: 25px 0;
+}
+.social-section col-md-5{
+
+}
+.social-section col-md-7{
+
+}
+.social-section ul{
+	text-align: right;
+	    padding-top: 40px;
+}
+.social-section ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 25px;
+
+}
+.social-section ul li a{
+
+}
+.social-section ul li a i{
+	font-size: 25px;
+    padding: 10px;
+    color:#cccccc;
+}
+
+
+/*feature section 1 astart here*/
+.feature1{
+	width: 100%;
+	background:#f5f5f5;
+	padding: 50px 0;
+}
+.feature1 .row{
+	padding: 0 35px;
+}
+.feature1 .col-md-2{
+	display:flex;
+	align-items: center;
+}
+.feature1 .col-md-6{
+    padding-top: 30px;
+}
+.feature1 ul li{
+    width: 60px;
+    list-style: none;
+    background: tomato;
+    border-bottom: 1px solid white;
+    height: 60px;
+    line-height: 60px;
+
+}
+.feature1 .col-md-4 img{
+	width:100%;
+	padding-top: 15px;
+}
+/*feature section 2 astart here */
+.feature2{background: red;
+		width: 100%;
+	padding: 50px 0;
+	border-bottom: 1px solid #00000030;
+}
+.feature2 h5{
+	font-weight: 700;
+}
+.feature2 .line{
+   width: 70px;
+    height: 2px;
+    background: #9E9E9E;
+    margin: 20px 0;
+}
+.feature2 .col-md-3{
+	text-align: right;
+}
+.feature2 i{
+     background: tomato;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 100%;
+    color: white;
+    font-size: 25px;
+}  
+/*feature section 3 astart here */
+.feature3{
+	width: 100%;
+	background: #f5f5f5;
+	padding: 120px 0;
+}
+.feature3 h5{
+	font-weight: 700;
+}
+.feature3 .line{
+   width: 70px;
+    height: 2px;
+    background: tomato;
+    margin: 20px 0;
+}
+/*<!--about us  section -->*/
+.about-us{
+	width:100%;
+	text-align: center;
+	padding: 120px 0;
+}
+.about-us h1{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.about-us .line{
+	margin: 20px auto;
+    width: 60px;
+    height: 2px;
+    background-color: red;
+}
+.about-us i{
+    height: 70px;
+    width: 70px;
+    background: white;
+    border-radius: 100%;
+    font-size: 35px;
+    border: 3px solid tomato;
+    line-height: 70px;
+    color: tomato
+}
+.about-us .service{
+	margin: 20px 0;
+}
+
+/*day 8 pricing section start here*/
+.pricing{
+	width: 100%;
+	padding: 120px 0;
+	text-align: center;
+	background: #f5f5f5;
+}
+.pricing .row{
+	   text-align: center;
+	    padding: 20px 0;
+}
+.pricing h1{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.pricing .line{
+	margin: 20px auto;
+    width: 60px;
+    height: 2px;
+    background-color: red;
+}
+
+.pricing p{
+	margin-top: 1rem;
+}
+/*card section*/
+
+.pricing .card-header{
+	background:#333333;
+	color:white;
+}
+.pricing .card-body{
+		background:#333333;
+	color:white;
+}
+.pricing .card-body h1{
+
+}
+.pricing .card-body h1 span{
+	font-size: 80px;
+}
+.pricing .card-body .extra p{
+	    margin-bottom: 0px;
+}
+.pricing .item2 .card-body{
+	padding: 0px;
+}
+
+.pricing ul li{
+	list-style: none;
+	border-bottom: 1px solid black;
+}
+.pricing .card-footer{
+	padding: 0px;
+}
+.pricing .price{
+	align-items: flex-end;
+}
+
+
+/*comment section start here*/
+
+.comment{
+	text-align: center; 
+	width: 100%;
+	padding: 120px 0;
+	background: white;
+}
+.comment h1{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.comment .line{
+	margin: 20px auto;
+    width: 60px;
+    height: 2px;
+    background-color: red;
+}
+.comment .box{
+	background: #f5f5f5;
+	position: relative;
+}
+.comment .box-icon{
+	background: #f5f5f5;
+	position: absolute;
+	height: 30px;
+	width:30px;
+	bottom: -15px;
+    left: 45px;
+    transform: rotate(45deg);
+}
+.comment .box{
+	margin: 50px 0;
+	padding: 20px;
+	border-radius: 5px;
+	border: 2px solid #f5f5f5;
+    border-radius: 10px;
+}
+
+.comment .user{
+	margin-top: 50px;
+}
+.comment .col-md-8{
+	text-align: left;
+}    
+
+
+/*custom section start here*/
+
+.custom-section{
+	width:100%;
+	background: url(../img/design.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 60vh;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.custom-section .custom{
+	height: 60vh;
+	display: table-cell;
+	vertical-align: middle;
+/*    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+}
+.custom-section h2{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 36px;
+	margin: 20px 0;
+}
+.custom-section .line{
+    width: 90px;
+    height: 3px;
+    background: white;
+    margin: 20px auto;
+}
+.custom-section p{
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.custom-section button{
+	padding: 15px;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    border: 1px solid aliceblue;
+}
+
+/*contact us section start from here*/
+
+.contact-section{
+	width:100%;
+	padding: 100px 0;
+	text-align: center;
+}
+.contact-section h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	margin: 20px 0;
+}
+.contact-section .line{
+    width: 90px;
+    height: 3px;
+    background:tomato;
+    margin: 20px auto;
+}
+.contact-section .form-control{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.contact-section textarea{
+	border: none;
+    border-bottom: 1px solid;
+    text-align: left;
+}
+.contact-section textarea:focus{
+	outline: none;
+}
+button{
+	margin-top: 40px;
+}
+/*foter part start here*/
+
+footer{
+	width:100%;
+	padding: 100px 0;
+	text-align: center;
+	background: #f5f5f5;
+}
+
+footer ul{
+	    padding-top: 40px;
+}
+footer ul li{
+	list-style: none;
+	display: inline-block;
+	    height: 70px;
+    line-height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background: grey;
+    font-size: 30px;
+
+}
+
+/*footer ul li i{
+    font-size: 40px;
+    font-weight: 700;
+    color: grey;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background: black;
+    display: table-cell;
+    vertical-align: middle;
+}*/
